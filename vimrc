@@ -24,7 +24,8 @@ Plugin 'git://git.wincent.com/command-t.git'
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 " Install L9 and avoid a Naming conflict if you've already installed a
 " different version somewhere else.
-" Plugin 'ascenator/L9', {'name': 'newL9'}
+Plugin 'AlessandroYorba/Despacio'
+Plugin 'joonty/vdebug'
 " All of your Plugins must be added before the following line
 Bundle "Valloric/YouCompleteMe"
 Bundle "scrooloose/nerdtree"
@@ -120,14 +121,6 @@ set listchars=tab:▸\ ,eol:¬
 " Or use your leader key + l to toggle on/off
 map <leader>l :set list!<CR> " Toggle tabs and EOL
 
-" Color scheme (terminal)
-set t_Co=256
-set background=dark
-let g:solarized_termcolors=256
-let g:solarized_termtrans=1
-" put https://raw.github.com/altercation/vim-colors-solarized/master/colors/solarized.vim
-" in ~/.vim/colors/ and uncomment:
-" colorscheme solarized
 set rnu
 noremap <Up> <NOP>
 noremap <Down> <NOP>
@@ -136,3 +129,5 @@ noremap <Right> <NOP>
 au VimEnter *  NERDTree
 au VimEnter * wincmd l
 au VimEnter * cnoreabbrev a wqa
+
+colorscheme despacio
