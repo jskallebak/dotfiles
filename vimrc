@@ -8,7 +8,7 @@ call vundle#begin()
 " alternatively, pass a path where Vundle should install plugins
 "call vundle#begin('~/some/path/here')
 " let Vundle manage Vundle, required
-Plugin 'VundleVim/Vundle.vim'
+"Plugin 'VundleVim/Vundle.vim'
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
 " plugin on GitHub repo
@@ -27,7 +27,7 @@ Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 Plugin 'AlessandroYorba/Despacio'
 Plugin 'joonty/vdebug'
 " All of your Plugins must be added before the following line
-Bundle "Valloric/YouCompleteMe"
+"Bundle "Valloric/YouCompleteMe"
 Bundle "scrooloose/nerdtree"
 Bundle "vim-syntastic/syntastic"
 
@@ -35,7 +35,6 @@ call vundle#end()            " required
 filetype plugin indent on    " required
 " To ignore plugin indent changes, instead use:
 "filetype plugin on
- 
 
 " Turn on syntax highlighting
 syntax on
@@ -130,4 +129,4 @@ au VimEnter *  NERDTree
 au VimEnter * wincmd l
 au VimEnter * cnoreabbrev a wqa
 
-colorscheme despacio
+colorscheme crayon

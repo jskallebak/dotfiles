@@ -1,6 +1,6 @@
 [user]
 	name = jskallebak
-	email = jskallebak@gamil.com
+	email = jskallebak@gmail.com
 [push]
 	default = simple
 [alias]
@@ -9,5 +9,6 @@
   pl = pull
   ps = push
   st = status
+  cia = commit -am
 [credential]
 	helper = cache
