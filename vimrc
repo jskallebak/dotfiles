@@ -129,4 +129,4 @@ au VimEnter *  NERDTree
 au VimEnter * wincmd l
 au VimEnter * cnoreabbrev a wqa
 
-colorscheme crayon
+colorscheme molokai
