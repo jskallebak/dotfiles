@@ -11,4 +11,13 @@
   st = status
   cia = commit -am
 [credential]
-	helper = cache
+	helper = store
+[github]
+	user = jskallebak
+	oauth-token = 9554c42c2f66fc6d66cc21f36879294bc2cc2597
+[ghi]
+	token = f030006f40509a0e088c0425125920c1cbe0a27f
+[core]
+	autocrlf = input
+[gui]
+	recentrepo = /home/jak/kuttelutte

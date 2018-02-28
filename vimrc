@@ -125,7 +125,7 @@ noremap <Up> <NOP>
 noremap <Down> <NOP>
 noremap <Left> <NOP>
 noremap <Right> <NOP>
-au VimEnter *  NERDTree
+" au VimEnter *  NERDTree
 au VimEnter * wincmd l
 au VimEnter * cnoreabbrev a wqa
 
